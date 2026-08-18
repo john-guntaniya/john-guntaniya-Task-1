@@ -33,12 +33,6 @@ Before finishing, the script runs a **verification gate** and reports:
 └── README.md
 ```
 
-## Requirements
-
-- Python 3.8+
-- pandas
-- openpyxl
-
 Install dependencies:
 
 ```bash
@@ -109,6 +103,3 @@ Saved: Cleaned_Dataset.xlsx  (sheets: 'Cleaned_Data', 'Change_Log')
 | `ReferralSource` | Marketing channel that drove the order |
 | `TotalPrice` | `Quantity × UnitPrice` (validated/recalculated) |
 
-## License
-
-Internal training project — DecodeLabs Industrial Training Kit, 2026 Batch.
